@@ -1,7 +1,9 @@
 let favoriteBooks = [];
 
 function addFavoriteBook(bookName) {
-  // Start coding here !
+ if(bookName.includes("Beauty")){
+  favoriteBooks.push(bookName)
+ }
 }
 
 // Example case
@@ -11,4 +13,6 @@ addFavoriteBook("The Beauty of Living Twice");
 addFavoriteBook("Black Beauty");
 addFavoriteBook("Monstrous Beauty");
 
+
 console.log(favoriteBooks);
+
